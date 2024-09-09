@@ -1,0 +1,746 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Gabarito', sans-serif;
+}
+.navbar{
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    align-items: center;
+    cursor: pointer;
+}
+.navbar__s1 img{
+    width: 300px;
+}
+.navbar__s2 {
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.navbar__s3{
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+    padding: 10px;
+    cursor: pointer;
+    border: solid wheat 1px;
+}
+.navbar__s4{
+    padding: 30px;
+    align-items: center;
+}
+.navbar__s4__title{
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+}
+.navbar__s4__des{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+
+.navbar__s5__title{
+    padding: 10px;
+    border: solid black 1px;
+    border-radius: 30px;
+    width: 55%;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-around;
+}
+.navbar__s5__title input{
+    border: none;
+    font-size: 16px;
+    width: 80%;
+    align-items: center;
+    background-color: transparent;
+    align-items: center;
+}
+.navbar__s5__title input:focus{
+    outline: none;
+    width: 40%;
+}
+.navbar__s5
+    {
+    justify-content: center;
+    display: flex;
+}
+.navbar__s5 h4{
+    border-radius: 30px;
+background-color:#84E9BD ;
+color: black;
+border: solid black 1px;
+padding: 10px;
+
+}
+.class-1 img{
+width: 100%;
+}
+.class-1{
+    margin-top: 50px;
+    margin-right: 10%;
+    margin-left: 10%;
+    background-color: blueviolet;
+ position: relative;
+}
+.class-2{
+ width: 450px;
+ height: 350px;
+ font-size: larger;
+ position: relative;
+ position: absolute;
+ top: 100px;
+ left: 170px;
+}
+.class-2__one{
+    font-weight: bold;
+}
+.class-2__two{
+    font-weight: bold;
+    font-size: 51px;
+    position: relative;
+}
+.class-2__three{
+    font-weight: bold;
+    font-size: 51px;
+    position: relative;
+    top: 0px;
+}
+.class-2__four{
+    font-weight: bold;
+    font-size: 22px;
+    width: 420px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}.class-2__five{
+    border: solid black 1px;
+    display: inline;
+    border-radius: 30px;
+    padding: 15px;
+}
+.class-2__five{
+    padding-bottom: 13px;
+padding-left: 23px;
+padding-right: 23px;
+font-weight: bold;
+background-color: black;
+color: white;
+position: absolute;
+box-shadow: rgba(0, 0, 0, 0.17);
+transition: 2s;
+}
+.class-2__five:hover{
+    cursor: pointer;
+    background-color: aqua;
+    color: black;
+    transition: 1s;
+}
+.trip{
+    padding: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.winning{
+    margin-top: 80px;
+}
+.trip-1{
+    position: relative;
+    padding-top: 40px;
+    gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.trip-1__one{
+    flex-basis: 20px;
+    flex-grow: 1;
+    margin: 10px;
+}
+.trip-1__one img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+
+}
+.one1{
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    bottom: 30px;
+    left: 20px;
+}
+.two2{
+font-size: 25px;
+color: white;
+font-weight: bold;
+position: absolute;
+bottom: 30px;
+left: 325px;
+}
+.three3{
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    bottom: 30px;
+    left: 560px;
+}
+.four4{
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    bottom: 30px;
+    left: 850px;
+}
+
+/*tour*/
+
+.tour{
+margin-left: 10%;
+margin-right: 10%;
+}
+.tour-1__one p img{
+    width: 20px;
+}
+.tour-1{
+    padding-top: 40px;
+    gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+  justify-content: space-between;
+}
+.tour-1__one{
+    flex-basis: 20%;
+    flex-grow: 1;
+    margin: 10px;
+}
+.tour-1__one img{
+    width: 100%;
+    height: 60%;
+    border-radius: 10px;
+}
+.holiday-image{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 50px;
+    font-size: 20px;
+}
+.holiday{
+    margin-top: 80px;
+}
+
+.holiday-image-1{
+    padding:5px;
+    gap: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+   display:inline-block ;
+   align-items: center;
+   text-align: center;
+
+    
+}
+.holiday-image-1__one{
+    flex-basis: 20%;
+    flex-grow: 1;
+    margin: 10px;
+    display: flex;
+}
+.holiday-image-1 img{
+    width: 100%;
+    height: 70%;
+    border-radius: 20px;
+    display:flex;
+    
+    
+}
+.one-1{
+    font-size: 30px;
+color: white;
+font-weight: bold;
+position: absolute;
+top: 260px;
+left: 70px;
+display: flex;
+}
+.two-2{
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    top: 260px;
+    left: 70px
+}
+.three-3{
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    top: 260px;
+    left: 70px;
+}
+.four-4{
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    top: 260px;
+    left: 70px;
+}
+/*explorer*/
+
+.explorer-box-1{
+    margin-top: 40px;
+    margin-left: 10%;
+    margin-right: 10%;
+    position: relative;
+}
+.explorer-box-1 img{
+    width: 1100px;
+    height: 600px;
+    border-radius: 20px;
+    border: solid black 1px;
+}
+.explorer-box-2__two{
+    font-weight: bold;
+    font-size: 40px;
+    color: white;
+    position: absolute;
+    top: 450px;
+    left: 50px;
+}
+.explorer-box-2__three{
+    border: solid black 1px;
+    display: inline;
+    border-radius: 30px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 23px;
+    padding-right: 23px;
+    font-weight: bold;
+    background-color: rgb(240,237,237);
+    color: rgb(
+        
+    4,4,4);
+    position: absolute;
+    top: 520px;
+    left: 50px;
+    box-shadow: rgba(0, 0, 0, 0.17);
+    transition: 2s;
+}
+.explorer-box-2__three:hover{
+    cursor: pointer;
+    background-color: #dad3fc;
+    color: black;
+    transition: 1s;
+}
+ /*about*/
+ 
+ .about{
+    margin-top: 100px;
+    background-color: #faf1ed;
+    color: black;
+    border-radius: 15px;
+    border: solid #faf1ed 1px;
+ }
+.about-one,.about-5{
+    display: flex;
+    gap: 30px;
+    padding-top: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.about-1 p,
+.about-2 p,
+.about-3 p,
+.about-4 p{
+    margin: 5px;
+    gap: 20px;
+}
+.about-5{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 35px;
+}
+.about-6{
+    display: flex;
+    gap: 25px;
+    font-size: large;
+}
+
+.about p:hover{
+    cursor: pointer;
+    color:green;
+    gap: 10px;
+}
+.about-1{
+    margin: 5px;
+    gap: 20px;
+}
+.about-2{
+    margin: 5px;
+    gap: 20px;
+}
+
+
+/* media qeries*/
+/* class*/
+
+@media screen and (max-width:1050px){
+   .class-2{
+    width: 41%;
+    height: 73%;
+    font-size: larger;
+    position: relative;
+    position: absolute;
+    top: 18%;
+    left: 14%;
+   } 
+   .class-2__one{
+    font-weight: bold;
+}
+.class-2__two{
+    font-weight: bold;
+    font-size: 29px;
+    position: relative;
+}
+.class-2__three{
+    font-weight: bold;
+    font-size: 28px;
+    position: relative;
+    top: 63px;
+}
+.class-2__four{
+    font-weight: bold;
+    font-size: 13px;
+    width: 90%;
+    margin-top: 39px;
+    margin-bottom: 8px;
+}.class-2__five{
+    border: solid black 1px;
+    display: inline;
+    border-radius: 30px;
+    font-size: 13px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+padding-left: 10px;
+padding-right: 10px;
+
+}
+/*explorer*/
+.explorer-box-1{
+    margin-top: 40px;
+    margin-left: 10%;
+    margin-right: 10%;
+    position: relative;
+}
+.explorer-box-1 img{
+    width: 1100px;
+    height: 600px;
+    border-radius: 20px;
+    border: solid black 1px;
+}
+.explorer-box-2__two{
+    font-weight: bold;
+    font-size: 21px;
+    color: white;
+    position: absolute;
+    top: 53%;
+    left: 4%;
+}
+.explorer-box-2__three{
+    border: solid black 1px;
+    display: inline;
+    border-radius: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 13px;
+    padding-right: 13px;
+    font-weight: bold;
+    background-color: rgb(240,237,237);
+    color: rgb(4,4,4);
+    position: absolute;
+    top: 75%;
+    left: 10%;
+    box-shadow: rgba(0, 0, 0, 0.17);
+    transition: 1.5s;
+}
+.explorer-box-2__three:hover{
+    cursor: pointer;
+    background-color: #dad3fc;
+    color: black;
+    transition: 1s;
+}
+
+/*adventure*/
+.one1{
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    bottom: 24%;
+    left: 3.5x;
+}
+.two2{
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    bottom: 26%;
+    left: 30%;
+}
+.three3{
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    bottom: 65px;
+    left: 58%;
+}
+.four4{
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    bottom: 65px;
+    left: 79%;
+}
+/* hotes*/
+.holiday{
+    margin-top: 180px;
+}
+.one-1{
+    font-size: 15px;
+color: white;
+font-weight: bold;
+position: absolute;
+top: 88%;
+left: 3%;
+}
+.two-2{
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    top: 89%;
+    left: 29%;
+}
+.three-3{
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    top: 89%;
+    left: 56%;
+}
+.four-4{
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    top: 89%;
+    left: 79%;
+}
+}
+/*media queries
+@media screen and (max-width:800px) {
+    body{
+        font-size: 10px;
+    }
+}
+@media screen and (max-width:650px) {
+    .trip-1__one,.tour-1__one,.holiday-image-1__one{
+flex-basis: 40%;
+    } 
+}
+@media screen  and (max-width:600px){
+    body{
+        font-size: 10px;
+    }
+    .class-1{
+        margin-right: 0%;
+        margin-left: 0%;
+    }
+    .class-2
+
+    .holiday{
+        margin-top: 80px;
+    }
+    .navbar__s2,.navbar__s3,.navbar__s4__title,
+    .navbar__s4__des,.navbar__s5{
+        display: none;
+    }
+.navbar__s5__title{
+    display: block;
+    padding-right: 20%;
+    font-size: larger;
+}
+}
+
+@media  screen and (max-width:650px) {
+    .class-2{
+        width: 43;
+        height: 73%;
+        font-size: larger;
+        position: relative;
+        position: absolute;
+        top: 17%;
+        left: 14%;
+    }
+    .class-2__one{
+        font-weight: bold;
+    }
+    .class-2__two{
+        font-weight: bold;
+        font-size: 19px;
+        position: relative;
+    }
+    .class-2__three{
+        font-weight: bold;
+        font-size: 18px;
+        position: relative;
+        top: 40px;
+    }
+    .class-2__four{
+        font-weight: bold;
+        font-size: 9px;
+        width: 95%;
+        margin-top: 23px;
+        margin-bottom: 2.5px;
+    }
+    .class-2__five{
+        border: solid black 1px;
+        display: inline;
+        border-radius: 30px;
+        padding: 4px;
+        font-size: 5px;
+     }
+    }
+/*explorer
+@media screen and(max-width:650px) {
+    .explorer-box-1{
+        margin-top: 40px;
+        margin-left: 10%;
+        margin-right: 10%;
+    position: relative;
+    }
+    .explorer-box-1 img{
+        width: 100%;
+        height: 600px;
+    border-radius: 20px;
+    border: solid black 1px;
+}
+.explorer-box-2__two{
+    font-weight: bold;
+    font-size: 14px;
+    color: white;
+    position: absolute;
+    top: 53%;
+    left: 3%;
+}
+.explorer-box-2__three{
+    border: solid black 1px;
+    display: inline;
+    border-radius: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 13px;
+    padding-right: 13px;
+    font-weight: bold;
+    background-color: rgb(240,237,237);
+    color: rgb(4,4,4);
+    position: absolute;
+    top: 75%;
+    left: 10%;
+    box-shadow: rgba(0, 0, 0, 0.17);
+    transition: 1.5s;
+}
+.explorer-box-2__three:hover{
+    cursor: pointer;
+    background-color: #dad3fc;
+    color: black;
+    transition: 1s;
+    }
+    /*adventure
+    .one1{
+        font-size: 15px;
+        color: white;
+        font-weight: bold;
+        position: absolute;
+        bottom: 64%;
+        left: 7.5%;
+    }
+    .two2{
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    bottom: 64%;
+    left: 61.5%;
+    }
+    .three3{
+        font-size: 17px;
+        color: white;
+        font-weight: bold;
+        position: absolute;
+        bottom: 65px;
+        left: 12%;
+    }
+    .four4{
+        font-size: 14.5px;
+        color: white;
+        font-weight: bold;
+        position: absolute;
+        bottom: 65px;
+        left: 59%;
+    }
+    /*holiday
+    .one-1{
+        font-size: 15px;
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 61%;
+    display: flex;
+    }
+    .two-2{
+        font-size: 16px;
+        color: white;
+        font-weight: bold;
+        position: absolute;
+        top: 50%;
+        left: 61%;
+    }
+    .three-3{
+        font-size: 16px;
+        color: white;
+        font-weight: bold;
+        position: absolute;
+        top: 95%;
+        left: 7%;
+    }
+    .four-4{
+        font-size: 16px;
+        color: white;
+        font-weight: bold;
+        position: absolute;
+        top: 95%;
+        left: 58.5%;
+}   
+}
+*/

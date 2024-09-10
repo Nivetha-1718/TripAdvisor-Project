@@ -17,7 +17,7 @@ Welcome to TripAdvisor Project This repository contains the source code for a Tr
 
 ## Live Demo
 
-Check out the live version of the Tripadvisor project [].
+Check out the live version of the Tripadvisor project [ https://nivetha-1718.github.io/TripAdvisor-Project/].
 
 ## Contributing
 
